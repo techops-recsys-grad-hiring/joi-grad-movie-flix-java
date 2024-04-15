@@ -1,4 +1,4 @@
-package com.movieflix.service;
+package com.movieflix.domain.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
