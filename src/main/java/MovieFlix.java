@@ -1,5 +1,3 @@
-package main;
-
 import java.util.Scanner;
 import com.movieflix.domain.Customer;
 import com.movieflix.domain.PaymentType;
