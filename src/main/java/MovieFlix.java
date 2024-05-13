@@ -22,6 +22,9 @@ public class MovieFlix {
             double planCharges = payment.calculateCharge(customer, paymentType);
             System.out.println("Plan charge :" + planCharges);
         }
+        else {
+            System.out.println("Thank you please enter yes to subscribe");
+        }
     }
 
     static Customer getCustomerDetails() {

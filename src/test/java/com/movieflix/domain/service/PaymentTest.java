@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 import com.movieflix.domain.Customer;
 import com.movieflix.domain.PaymentType;
 import com.movieflix.domain.UPIPayment;
-import com.movieflix.domain.service.Payment;
 
 public class PaymentTest {
     @Test

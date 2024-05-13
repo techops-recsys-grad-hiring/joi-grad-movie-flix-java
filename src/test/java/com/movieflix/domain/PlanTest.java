@@ -3,14 +3,14 @@ package com.movieflix.domain;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
-public class BasicPlanTest {
+public class PlanTest {
 
     @Test
     void shouldReturnChargesForBasicPlan() {
-        BasicPlan basicPlan = new BasicPlan();
+
         double expectedPlanCharge = 22.8;
 
-        double charges = basicPlan.charges();
+        double charges = Plan.BASIC.charges();
 
         assertEquals(expectedPlanCharge, charges);
     }
